@@ -45,13 +45,13 @@
 
 |        model_name |                                                    params |  fit_time | predict_time |        rmse |
 |------------------:|----------------------------------------------------------:|----------:|-------------:|------------:|
-|     LGBMRegressor | {'learning_rate': 0.4, 'max_depth': 10, 'metric': 'rmse'} |  0.654573 |     0.141009 | 1575.084551 |
-| CatBoostRegressor | {'iterations': 200, 'loss_function': 'RMSE'}              | 37.137963 |     0.120008 | 1606.198760 |
-| CatBoostRegressor | {'iterations': 50, 'loss_function': 'RMSE'}               | 10.706576 |     0.064003 | 1705.080047 |
-|             Ridge | {'alpha': 0.01, 'solver': 'cholesky'}                     |  2.423505 |     0.124010 | 2683.020193 |
-|             Ridge | {'alpha': 0.1, 'solver': 'cholesky'}                      |  3.851032 |     0.154012 | 2683.028652 |
-|             Ridge | {'alpha': 1.0, 'solver': 'auto'}                          |  5.224387 |     0.174015 | 2683.147357 |
-|    DummyRegressor | strategy': 'median'}                                      |  0.002999 |     0.000000 | 4860.392180 |
+|     LGBMRegressor | {'learning_rate': 0.4, 'max_depth': 10, 'metric': 'rmse'} |  0.654 |     0.141 | 1575 |
+| CatBoostRegressor | {'iterations': 200, 'loss_function': 'RMSE'}              | 37.138 |     0.120 | 1606 |
+| CatBoostRegressor | {'iterations': 50, 'loss_function': 'RMSE'}               | 10.706 |     0.064 | 1705 |
+|             Ridge | {'alpha': 0.01, 'solver': 'cholesky'}                     |  2.423 |     0.124 | 2683 |
+|             Ridge | {'alpha': 0.1, 'solver': 'cholesky'}                      |  3.851 |     0.154 | 2683 |
+|             Ridge | {'alpha': 1.0, 'solver': 'auto'}                          |  5.224 |     0.174 | 2683 |
+|    DummyRegressor | strategy': 'median'}                                      |  0.003 |     0.000 | 4860 |
 
 ***Что еще надо сделать:***
 - Выяснить максимально допустимое время и провести расширенное исследование гиперпараметров моделей;
